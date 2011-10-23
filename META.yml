@@ -1,0 +1,19 @@
+---
+abstract: 'Parser of MoPaQ archives'
+author:
+  - 'cono <q@cono.org.ua>'
+build_requires: {}
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300002, CPAN::Meta::Converter version 2.112621'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: MPQ
+requires:
+  Fcntl: 0
+  File::Temp: 0
+  IO::Uncompress::Bunzip2: 0
+version: 0.01
