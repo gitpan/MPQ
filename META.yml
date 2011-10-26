@@ -16,4 +16,9 @@ requires:
   Fcntl: 0
   File::Temp: 0
   IO::Uncompress::Bunzip2: 0
-version: 0.01
+  Math::BigInt: 0
+resources:
+  bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=MPQ
+  homepage: https://github.com/cono/p5-mpq
+  repository: https://github.com/cono/p5-mpq.git
+version: 0.02

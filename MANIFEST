@@ -1,5 +1,6 @@
 LICENSE
 MANIFEST
+META.json
 META.yml
 Makefile.PL
 README
@@ -36,4 +37,3 @@ t/120-mpq-archive-file-filter.t
 t/130-mpq-archive-file-uncompress.t
 t/legendz-rapedz.sc2replay
 t/mTwDIMAGA_vs_mouzMaNa_ZvP_ESL_Metalopolis.sc2replay
-t/test.pl

@@ -22,9 +22,10 @@ my %WriteMakefileArgs = (
   "PREREQ_PM" => {
     "Fcntl" => 0,
     "File::Temp" => 0,
-    "IO::Uncompress::Bunzip2" => 0
+    "IO::Uncompress::Bunzip2" => 0,
+    "Math::BigInt" => 0
   },
-  "VERSION" => "0.01",
+  "VERSION" => "0.02",
   "test" => {
     "TESTS" => "t/*.t"
   }

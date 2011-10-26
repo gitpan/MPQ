@@ -1,0 +1,45 @@
+{
+   "abstract" : "Parser of MoPaQ archives",
+   "author" : [
+      "cono <q@cono.org.ua>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.300002, CPAN::Meta::Converter version 2.112621",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "MPQ",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.30"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Fcntl" : 0,
+            "File::Temp" : 0,
+            "IO::Uncompress::Bunzip2" : 0,
+            "Math::BigInt" : 0
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "http://rt.cpan.org/NoAuth/Bugs.html?Dist=MPQ"
+      },
+      "homepage" : "https://github.com/cono/p5-mpq",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/cono/p5-mpq.git",
+         "web" : "https://github.com/cono/p5-mpq"
+      }
+   },
+   "version" : "0.02"
+}
+
